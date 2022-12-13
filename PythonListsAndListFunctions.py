@@ -70,6 +70,11 @@ d = 3
 c, d = d, c
 print(c, d)
 
+#Method of tuple unpacking
+location = 108.77, 92.55
+latitude, longitude = location  #assigning it to a variable
+print("The coordinates are {}x{}".format(latitude, longitude))
+
 """
 OUTPUT:-
 ['sam', 'pam', 'cam']

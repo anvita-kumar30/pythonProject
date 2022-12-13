@@ -32,6 +32,9 @@ print(mystr2.lower()) #applies to the whole string
 print(mystr2.upper()) #applies to the whole string
 print(mystr.replace("lo", "l")) #Hell
 
+#format()
+print("She has {} lipsticks".format(12))
+
 """
 OUTPUT:-
 Hello
@@ -58,6 +61,7 @@ Hello
 anvita k
 ANVITA K
 Hell
+She has 12 lipsticks
 
 Process finished with exit code 0
 """
