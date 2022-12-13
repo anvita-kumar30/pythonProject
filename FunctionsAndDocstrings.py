@@ -3,6 +3,7 @@
 # c = sum((a,b))  #built-in function
 # print(c)
 
+#user defined
 def function1(a, b):
     print("Hello you are in function 1:", a+b)
 function1(5, 7)
