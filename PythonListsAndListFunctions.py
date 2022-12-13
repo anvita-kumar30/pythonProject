@@ -1,11 +1,12 @@
 students = ["sam", "pam", "cam"]
 print(students)
+print(type(students))
 print(students[0])
 print(students[1])
 print(students[2])
 
 """
-Lists in Python
+Lists in Python (square brackets)
 
 []                             list with no member, empty list
 [1, 2, 3]                      list of integers 
@@ -51,9 +52,10 @@ print(numbers)   #changes the og list
 numbers.reverse()
 print(numbers)
 
-#Tuples - immutable ordered sequences of elements (like strings) also a multiple assignment operator
+#Tuples - immutable ordered sequences of elements (like strings) also a multiple assignment operator (parenthesis)
 vector = (4, 5, 9)
 print(vector)
+print(type(vector))
 tp = (1,) #for single element add a comma
 print(tp)
 
@@ -78,6 +80,7 @@ print("The coordinates are {}x{}".format(latitude, longitude))
 """
 OUTPUT:-
 ['sam', 'pam', 'cam']
+<class 'list'>
 sam
 pam
 cam
@@ -104,6 +107,7 @@ cam
 [2, 3, 7, 7, 11, 67]
 [67, 11, 7, 7, 3, 2]
 (4, 5, 9)
+<class 'tuple'>
 (1,)
 8 1
 3 2
