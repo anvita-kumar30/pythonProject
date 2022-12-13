@@ -4,6 +4,7 @@ mystr = "Hello"
  H  e  l  l  o
 -5 -4 -3 -2 -1    
 """
+#strings are immutable(cannot be modified)
 print(mystr)
 print(mystr[4])
 print(mystr[0:3]) #first index is included

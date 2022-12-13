@@ -1,0 +1,72 @@
+students = ["sam", "pam", "cam"]
+print(students)
+print(students[0])
+print(students[1])
+print(students[2])
+
+"""
+Lists in Python
+
+[]                             list with no member, empty list
+[1, 2, 3]                      list of integers 
+[1, 2.5, 3.7, 9]               list of numbers (integers and floating point)
+['a', 'b', 'c']                list of characters
+['a', 1, 'b', 3.5, 'zero']     list of mixed value types
+['One', 'Two', 'Three']        list of strings 
+"""
+
+#List Slicing
+grocery = ["deodrant", "lipstick", "sugar", "beans", "onions"]
+print(grocery)
+numbers = [2, 7, 9, 11, 3]
+print(numbers[0:5])
+print(numbers[:5])
+print(numbers[:])
+print(numbers[1:])
+print(numbers[1:4])
+print(numbers[::])
+print(numbers[::1])
+print(numbers[::2])
+print(numbers[::3])
+print(numbers[1:5:2])
+print(numbers[::-2])
+print(numbers[1:5:-2]) #do not use numbers less than -1 here as it gives an empty list
+
+#lists are mutable(can be modified)
+#List Functions
+print(len(numbers))
+print(max(numbers))
+print(min(numbers))
+numbers.append(7)
+numbers.append(7)
+print(numbers)
+numbers.insert(1, 67)
+print(numbers)
+numbers.remove(9)
+print(numbers)
+numbers.pop()
+print(numbers)
+numbers.sort()   #changes the og list
+print(numbers)   #changes the og list
+numbers.reverse()
+print(numbers)
+
+#Tuples - immutable ordered sequences of elements (like strings) also a multiple assignment operator
+vector = (4, 5, 9)
+print(vector)
+tp = (1,) #for single element add a comma
+print(tp)
+
+#Traditional method to swap elements
+a = 1
+b = 8
+temp = a
+a = b
+b = temp
+print(a, b)
+#Method in python
+c = 2
+d = 3
+c, d = d, c
+print(c, d)
+
