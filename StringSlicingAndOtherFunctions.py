@@ -30,3 +30,33 @@ print(mystr.find("lo"))  #6
 print(mystr2.lower()) #applies to the whole string
 print(mystr2.upper()) #applies to the whole string
 print(mystr.replace("lo", "l")) #Hell
+
+"""
+OUTPUT:-
+Hello
+o
+Hel
+Hello
+Hello
+Hello
+Hello
+Hello
+Hlo
+Hlo
+el
+olleH
+olH
+5
+True
+False
+True
+True
+2
+Hello
+3
+anvita k
+ANVITA K
+Hell
+
+Process finished with exit code 0
+"""

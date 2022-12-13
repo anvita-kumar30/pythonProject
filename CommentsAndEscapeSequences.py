@@ -19,3 +19,19 @@ print("C:\"nope") #Inserts a double quote character in the text at that point
 print("C:\'nope") #Inserts a single quote character in the text at that point
 print("This is an escape \t sequence") #Inserts a tab in the text at that point
 print("Hello \bagain") #Inserts a backspace in the text at that point
+
+"""
+OUTPUT:-
+Hello, Printed on the same line
+Hello Printed on the same line
+next line
+C:
+ope
+C:\nope
+C:"nope
+C:'nope
+This is an escape 	 sequence
+Helloagain
+
+Process finished with exit code 0
+"""
