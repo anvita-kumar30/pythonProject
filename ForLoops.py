@@ -22,6 +22,13 @@ for item in items:
     if str(item).isnumeric() and item>=6:
         print(item)
 
+#Range
+num = range(5)
+print(num)
+
+for item in range(5):
+    print(item)
+
 """
 OUTPUT:-
 Larry Carry Marie
@@ -48,6 +55,12 @@ Marie 6
 233
 23
 6
+range(0, 5)
+0
+1
+2
+3
+4
 
 Process finished with exit code 0
 """
