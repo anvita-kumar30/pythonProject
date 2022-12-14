@@ -6,10 +6,11 @@
 
 n = 19
 count = 0
-num_of_guesses = 9
-while(num_of_guesses>0):
+num_of_guesses = 1
+print("Number of guesses is limited to only 9 times")
+while(num_of_guesses<=9):
     count = count + 1
-    guess = input("Enter a number: ")
+    guess = input("Guess the number: ")
     guess = int(guess)
     if(guess==n):
         print("Congrats you've guessed the number correctly")
@@ -21,9 +22,10 @@ while(num_of_guesses>0):
     elif(guess>n):
         print("The number guessed is greater...")
         print("Try again")
-    num_of_guesses = num_of_guesses - 1
-    print("Number of guesses left is "+str(num_of_guesses))
-print("Game Over!")
+    print("Number of guesses left is "+str(9 - num_of_guesses))
+    num_of_guesses = num_of_guesses + 1
+if(num_of_guesses>9):
+    print("Game Over!")
 
 """
 OUTPUT:-
@@ -46,7 +48,6 @@ Number of guesses left is 5
 Enter a number: 19
 Congrats you've guessed the number correctly
 Number of guesses you took to finish is 5
-Game Over!
 
 Process finished with exit code 0
 """
