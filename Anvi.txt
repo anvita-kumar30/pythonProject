@@ -1,3 +1,1 @@
-Tom is a good boy
-Cam is the king of this universe
-Pam is very smart
+Hello World
