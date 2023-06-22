@@ -8,3 +8,12 @@ print(f.readline())
 print(f.readline())
 # print(f.tell())
 f.close()
+
+"""
+OUTPUT:-
+Hello World
+
+d
+
+more line
+"""
